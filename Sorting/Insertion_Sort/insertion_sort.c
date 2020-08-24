@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void insertion sort(int *arr, int n){
+void insertion_sort(int *arr, int n){
 	int i, j, main;
 	for (i = 1; i < n; i++){
 		main = arr[i];
