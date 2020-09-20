@@ -6,9 +6,8 @@ void swap(int *m, int *n){
     *n = temp;
 }
 
-void bubble_sort(int * arr){
+void bubble_sort(int * arr, int n){   // n is the size of the array
     int i, j;
-    int n = sizeof(arr)/sizeof(arr[0]);
     for (i = 0; i < n - 1; i++){
         for (j = 0; j < n - i - 1; j++){
             if (arr[j] > arr[j+1]){
