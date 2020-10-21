@@ -27,7 +27,7 @@ int main()
     int * arr = new int[n]();
     set_coin_arr(arr, n);
     //Then use it however we want
-    cout << arr[10] << endl;
+    cout << arr[9] << endl;
     
 
     return 0;

@@ -21,7 +21,7 @@ int main(void){
     int n;
     cin >> n;            // Takes the amount  of numbers in the sequence
     vector<int> sequence(n);
-    for(int i = 0; i < n; i++){
-        cin >> sequence[i];     // Number inputs
+    for(auto & x : sequence){
+        cin >> x;     // Number inputs
     }cout << subs(sequence, n);
 }
